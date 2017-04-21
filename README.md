@@ -54,16 +54,16 @@ The above file notebook also trains, tests and evaluates several pointwise model
 
 The csv of final features will be saved in home directory called df_all.csv.
 
-###  Step 5. pairwise data and LambdaMART
+###  Step 5. pairwise data and LambdaMART/SVMRank
 The dataset for pairwsie model is generated and saved in processing_text folder by running:
 
 * Pairwise data convertion.ipynb
 
 Then by running:
 
-* Feature Extractions and Pairwise LambdaMART.ipynb
+* Feature Extractions and Pairwise LambdaMART.ipynb / svmrank4_5.ipynb
 
-We can train and test the pairwise dataset using LambdaMART and evaluate using NDCG
+We can train and test the pairwise dataset using LambdaMART and evaluate using NDCG. SVMRank will also be used to apply on dataset and evaluate using MAP.
 
 ###  Step 6. Grid search and Stacking
 The Grid search and stacking is implementd by:
