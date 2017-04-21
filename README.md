@@ -75,7 +75,7 @@ Stacking.ipynb will automatically generate solution of predicted relevance on te
 
 ### Step 7. Deep Learning 
 
-The dataset used for this section is easily created by merging the train.csv with attribute.csv and the test.csv with attribute.csv. The merged dataset requires to have these variables (in this order):i_d,product_uid,product_title,search_term,relevance,name,value. 
+The dataset used for this section is easily created by merging the train.csv with attribute.csv and the test.csv with attribute.csv. The merged dataset requires to have these variables (in this order): id, product_uid, product_title, search_term, relevance, name, value. 
 
 Then, the processed dataset for Deep Learning Model (LSTM based Recurrent Neural Network) is obtained by running the following:
 * pipeline.py
