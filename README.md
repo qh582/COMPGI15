@@ -1,7 +1,7 @@
 # COMPGI15 2016-2017 Group 22 Project 3
 ## Home Depot Product Search Relevance
 
-### Step 1. Environment Setup 
+### Step 1. Environment Setup
 
 We used Python 3.6.0 and modules comes with Anaconda 4.3.16 (64-bit), include:
 
@@ -48,7 +48,7 @@ Then we extract brand and matching features by running:
 The above file notebook also trains, tests and evaluates several pointwise models using extracted features, include:
 
 * xgboost
-* random forst (with bagging)
+* random forest (with bagging)
 * adaboost
 * neural network (feature based)
 
