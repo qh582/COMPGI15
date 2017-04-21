@@ -1,3 +1,4 @@
-# COMPGI15
+# COMPGI15 Project 3
 Home Depot Kaggle Challenge
-ssssss
+## Instruction
+### Step 1
