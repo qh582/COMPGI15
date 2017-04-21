@@ -1,6 +1,6 @@
 # COMPGI15 2016-2017 Group 22 Project 3
 ## Home Depot Product Search Relevance
-
+Group 22 ([Zongsheng Wang](https://github.com/zcakzwa), [Fran Silavong](https://github.com/FranSilavong), [Qiuyi He](https://github.com/qh582))
 ### Step 1. Environment Setup
 
 We used Python 3.6.0 with Anaconda 4.3.16 (64-bit), include:
