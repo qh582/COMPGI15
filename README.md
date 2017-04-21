@@ -20,7 +20,7 @@ Besides we also used the following packages:
 R-studio and matlab are also used for EDA and plotting mesh graph. 
 
 ### Step 2. Raw Data Preparation
-The datasets provided by Kaggle challenge, include
+The datasets provided by [Kaggle challenge](https://www.kaggle.com/c/home-depot-product-search-relevance/data), include
 * train.csv
 * test.csv
 * product_description.csv
