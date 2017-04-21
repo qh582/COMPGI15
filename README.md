@@ -3,7 +3,7 @@
 
 ### Step 1. Environment Setup
 
-We used Python 3.6.0 and modules comes with Anaconda 4.3.16 (64-bit), include:
+We used Python 3.6.0 with Anaconda 4.3.16 (64-bit), include:
 
 * scikit-learn
 * numpy 
