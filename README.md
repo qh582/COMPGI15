@@ -72,3 +72,19 @@ The Grid search and stacking is implementd by:
 * stacking.ipynb
 
 Stacking.ipynb will automatically generate solution of predicted relevance on test set for submission.
+
+### Step 7. Deep Learning 
+
+The dataset used for this section is easily created by merging the train.csv with attribute.csv and the test.csv with attribute.csv. The merged dataset requires to have these variables (in this order):i_d,product_uid,product_title,search_term,relevance,name,value. 
+
+Then, the processed dataset for Deep Learning Model (LSTM based Recurrent Neural Network) is obtained by running the following:
+* pipeline.py
+
+To generate the predicted relevance on test set, run the following notebook:
+* lstm-rnn-final.ipynb
+
+If you are interested in other models that we have experimented, please refer to the 
+* lstm-rnn-final-with-descr.ipynb for the use of product description as training features
+* lstm-rnn-final-classification.ipynb	for the classification approach
+* lstm-rnn-final-balanced.ipynb for the use of balanced training dataset
+
