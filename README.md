@@ -1,4 +1,7 @@
-### Step 1. Environment Setup
+# COMPGI15 2016-2017 Group 22 Project 3
+## Home Depot Product Search Relevance
+
+### Step 1. Environment Setup 
 
 We used Python 3.6.0 and modules comes with Anaconda 4.3.16 (64-bit), include:
 
@@ -50,3 +53,22 @@ The above file notebook also trains, tests and evaluates several pointwise model
 * neural network (feature based)
 
 The csv of final features will be saved in home directory called df_all.csv.
+
+###  Step 5. pairwise data and LambdaMART
+The dataset for pairwsie model is generated and saved in processing_text folder by running:
+
+* Pairwise data convertion.ipynb
+
+Then by running:
+
+* Feature Extractions and Pairwise LambdaMART.ipynb
+
+We can train and test the pairwise dataset using LambdaMART and evaluate using NDCG
+
+###  Step 6. Grid search and Stacking
+The Grid search and stacking is implementd by:
+
+* Grid Search.ipynb 
+* stacking.ipynb
+
+Stacking.ipynb will automatically generate solution of predicted relevance on test set for submission.
